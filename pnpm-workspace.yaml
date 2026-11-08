@@ -1,0 +1,10 @@
+packages:
+  - services/*
+  - consumers/*
+  - tools/*
+
+onlyBuiltDependencies:
+  - esbuild
+
+ignoredBuiltDependencies:
+  - '@parcel/watcher'

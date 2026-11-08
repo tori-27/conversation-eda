@@ -1,0 +1,8 @@
+const PACKAGE_NAME = '@conversations-eda/agent-dashboard';
+
+const config = {
+  KAFKA_BROKERS: process.env.KAFKA_BROKERS,
+  KAFKA_TOPIC: process.env.KAFKA_TOPIC,
+} as const;
+
+console.log(`[${PACKAGE_NAME}] started with config:`, config);
