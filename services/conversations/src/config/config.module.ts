@@ -1,5 +1,5 @@
 import { DynamicModule, Global, Module } from '@nestjs/common';
-import type { AppConfig } from './env';
+import type { AppConfig } from './env.js';
 
 export const APP_CONFIG = Symbol('APP_CONFIG');
 

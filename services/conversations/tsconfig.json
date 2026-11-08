@@ -7,8 +7,8 @@
     "removeComments": true,
     "sourceMap": true,
     "incremental": true,
+    "rootDir": "./src",
     "outDir": "./dist",
-    "baseUrl": "./",
     "types": ["node", "jest"]
   },
   "include": ["src/**/*.ts"]

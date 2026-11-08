@@ -21,8 +21,8 @@ connect/                   Kafka Connect / Debezium config (later)
 
 ## Getting started
 
-Prerequisites: Node 22 (`nvm use`), pnpm 10 (`corepack enable`), [uv](https://docs.astral.sh/uv/),
-Docker.
+Prerequisites: Node 26 LTS (`nvm use`), pnpm 12 (`npm i -g pnpm@12`, since Node 26 no longer
+bundles corepack), [uv](https://docs.astral.sh/uv/), Docker.
 
 ```bash
 nvm use

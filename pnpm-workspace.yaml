@@ -3,8 +3,6 @@ packages:
   - consumers/*
   - tools/*
 
-onlyBuiltDependencies:
-  - esbuild
-
-ignoredBuiltDependencies:
-  - '@parcel/watcher'
+allowBuilds:
+  esbuild: true
+  '@parcel/watcher': false

@@ -1,10 +1,10 @@
 import { NestFactory } from '@nestjs/core';
-import { AppModule } from './app.module';
+import { AppModule } from './app.module.js';
 import {
   ConfigValidationError,
   loadConfig,
   type AppConfig,
-} from './config/env';
+} from './config/env.js';
 
 function loadConfigOrExit(): AppConfig {
   try {
@@ -27,4 +27,4 @@ async function bootstrap(): Promise<void> {
   await app.listen(config.PORT);
 }
 
-void bootstrap();
+await bootstrap();

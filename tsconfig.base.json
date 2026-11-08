@@ -1,12 +1,11 @@
 {
   "$schema": "https://json.schemastore.org/tsconfig",
   "compilerOptions": {
-    "target": "ES2023",
-    "lib": ["ES2023"],
+    "target": "es2025",
+    "lib": ["es2025"],
     "module": "nodenext",
     "moduleResolution": "nodenext",
     "types": ["node"],
-    "esModuleInterop": true,
     "isolatedModules": true,
     "resolveJsonModule": true,
     "skipLibCheck": true,
